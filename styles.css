@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Outfit:wght@100&family=Overpass:wght@100&family=Pacifico&display=swap');
+
+body{
+    background: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+
+.main_component{
+    height:510px;
+    width: 270px;
+    background: hsl(216, 50%, 16%);
+    border-radius: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+}
+
+
+.nft_img img{
+    width: 270px;
+    border-radius: 20px;
+}
+
+.heading1{
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.para1{
+    color: hsl(215, 51%, 70%);
+    font-weight: 400;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content .ether_div p{
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.content .time_div p{
+    margin-left: 10px;
+    color: hsl(215, 51%, 70%);
+    font-size: 15px;
+}
+
+.ether_div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.time_div{
+    display: flex;
+    align-items: center;
+}
+
+.content p{
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.content:after{
+    content: '';
+    height: 1px;
+    width: 260px;
+    background: hsl(215, 32%, 27%);
+    position: absolute;
+    bottom: 80px;
+    left: 25px;
+}
+
+
+.owner img{
+    height: 30px;
+    position: absolute;
+    bottom: 28px;
+    border: 2px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+}
+
+.owner p{
+    color: hsl(215, 51%, 70%);
+    position: absolute;
+    bottom: 25px;
+    left: 77px;
+    letter-spacing: 0.8px;
+    font-size: 13px;
+    font-weight: 600;
+}
+p{
+    font-weight: 700;
+}
+
+.owner p span{
+    color: hsl(0, 0%, 100%);
+}
